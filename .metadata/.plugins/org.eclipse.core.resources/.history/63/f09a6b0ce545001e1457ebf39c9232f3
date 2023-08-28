@@ -1,0 +1,38 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class CollectionsBasic {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		ArrayList<String> colorArrayList = new ArrayList<String>();
+		colorArrayList.add("rojo");
+		colorArrayList.add("verde");
+		colorArrayList.add("azul");
+		
+		for (String auxString : colorArrayList) {
+			System.out.println(auxString);
+		}
+		
+		colorArrayList.add(0,"negro");
+		
+		int i = scanner.nextInt();
+		colorArrayList.get(i);
+		
+		colorArrayList.set(i, "Update");
+		
+		colorArrayList.remove(2);
+	}
+	
+	private int searchInArray(ArrayList<String> searchArrayList, String elementSearch) {
+		for (String auxString : searchArrayList) {
+			if (auxString.equals(elementSearch)) {
+				return auxString.indexOf(auxString);
+			}
+		}
+		return -1;
+		
+	}
+
+}

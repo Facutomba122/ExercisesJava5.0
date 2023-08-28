@@ -1,0 +1,11 @@
+import java.util.ArrayList;
+
+public class CollectionsBasic {
+
+	public static void main(String[] args) {
+		ArrayList<String> colorArrayList = new ArrayList<>();
+		
+
+	}
+
+}

@@ -1,0 +1,18 @@
+import java.util.ArrayList;
+
+public class CollectionsBasic {
+
+	public static void main(String[] args) {
+		ArrayList<String> colorArrayList = new ArrayList<String>();
+		colorArrayList.add("rojo");
+		colorArrayList.add("verde");
+		colorArrayList.add("azul");
+		
+		for (String auxString : colorArrayList) {
+			System.out.println(auxString);
+		}
+		
+		colorArrayList.add(0,"negro");
+	}
+
+}
