@@ -65,11 +65,9 @@ public class CollectionsBasic {
 	
 	//13. Write a Java program to compare two array lists. (assumes ArrayList is Integer)
 	/*Big O notation:
-	 * Average: O(N)
+	 * Average: O(maxLength)
 	 * bestCase: O(1)
-	 * worstCase: O(N)
-	 * 
-	 * Where N = maxLength between firstArrayList and SecondArrayList
+	 * worstCase: O(maxLength)
 	 */
 	private boolean compareArrayList(ArrayList<Integer> firstArrayList, ArrayList<Integer> secondArrayList) {
 		int maxLength = 0;
@@ -103,11 +101,5 @@ public class CollectionsBasic {
 			array[i] = value;
 		}
 		return array;
-	}
-	
-	//14. Write a Java program that swaps two elements in an array list.
-	private ArrayList<?> swapElements(ArrayList<?> arrayList, int firstElementIndex, int secondElementIndex){
-		<?> auxValue = arrayList.get(firstElementIndex);
-		
 	}
 }

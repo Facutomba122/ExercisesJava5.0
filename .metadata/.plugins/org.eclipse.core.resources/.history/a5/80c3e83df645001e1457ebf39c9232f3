@@ -105,9 +105,7 @@ public class CollectionsBasic {
 		return array;
 	}
 	
-	//14. Write a Java program that swaps two elements in an array list.
-	private ArrayList<?> swapElements(ArrayList<?> arrayList, int firstElementIndex, int secondElementIndex){
-		<?> auxValue = arrayList.get(firstElementIndex);
+	private ArrayList<?> swapElements(ArrayList<?> arrayList){
 		
 	}
 }
